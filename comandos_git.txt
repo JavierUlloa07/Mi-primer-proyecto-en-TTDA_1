@@ -1,0 +1,13 @@
+#Para integrar los cambios del repositorio remoto en el repositorio local:
+git pull origin main
+
+#Para comprobar el estado del repositorio:
+git status
+
+#En caso de que aparezca un conflicto, se debe abrir el archivo afectado, revisar las diferencias y resolverlas manualmente. Después:
+git add nombre_del_archivo
+git commit -m "Resuelve conflicto"
+git push origin main
+
+#Para cancelar una integración con conflictos sin resolver:
+git merge --abort
