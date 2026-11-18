@@ -1,1 +1,1 @@
-#Esto es mi primer proyecto en TTAD - versión local
+#Esto es mi primer proyecto en TTAD
